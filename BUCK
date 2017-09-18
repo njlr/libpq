@@ -70,7 +70,7 @@ cxx_library(
   header_namespace = '',
   exported_headers = merge_dicts(subdir_glob([
     ('src/include', '**/*.h'),
-  ]), {
+  ], prefix = 'postgresql'), {
     'pg_config.h': ':pg_config',
     'pg_config_paths.h': ':pg_config_paths',
     'utils/errcodes.h': ':errcodes',
