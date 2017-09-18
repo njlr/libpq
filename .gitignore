@@ -30,3 +30,10 @@ lib*dll.def
 /pgsql.sln.cache
 /Debug/
 /Release/
+
+# Buck
+/.buckd/
+/buck-out/
+/buckaroo/
+BUCKAROO_DEPS
+.buckconfig.local
